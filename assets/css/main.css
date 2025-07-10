@@ -1001,6 +1001,16 @@ section,
   background-color: var(--accent-color);
 }
 
+.clients .swiper-slide p {
+  font-size: 14px;
+  /*color: color-mix(in srgb, var(--default-color), transparent 50%);*/
+  margin-top: 5px;
+  text-align: center;
+  white-space: nowrap;
+  font-family: var(--heading-font);
+  font-weight: 600;
+}
+
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
@@ -2499,4 +2509,11 @@ section,
 .subtitle {
   font-weight: 700;
   font-size: 22px;
+}
+
+/*--------------------------------------------------------------
+# General Align Styling
+--------------------------------------------------------------*/
+.p-10 {
+  padding: 10px;
 }
